@@ -1,13 +1,13 @@
-body{
+/*body{
 	background-color: #fff0da;
 }
 
 .header {
-	/*padding-top: 20px;*/
+	/*padding-top: 20px;
 	margin-bottom: 20px;
 	font-family: Geneva, Arial, Helvetica, sans-serif ;
 }
-/*header*/
+/*header
 .headerContent {
 	box-shadow: 0 3px 2px rgba(0,0,0,0.3);
 	-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
@@ -20,7 +20,7 @@ body{
 	-moz-border-radius: 3px;
 	padding-top: 10px;
 }
-/*logo*/
+/*logo
 .logo {
 	display: inline-block;
 	float: left;
@@ -47,7 +47,7 @@ body{
 	color: #694a19;
 }
 
-/*Навгація*/
+/*Навгація
 ul.nav {
 	margin: 0;
 	padding: 3px 0 0 0;
@@ -63,10 +63,10 @@ ul.nav li {
 
 ul.nav li a {
 	font-size: 17px;
-	/*font-weight: bold;*/
+	/*font-weight: bold;
 	text-decoration: none;
 	padding: 0 25px;
-	/*display: block;*/
+	/*display: block;
 	color: #694a19;
 	text-shadow: 0 1px 0 white;
 }
@@ -77,4 +77,4 @@ ul.nav li a.active {
 
 ul.nav li a:hover {
 	color: #9e642c;
-}
+}*/
