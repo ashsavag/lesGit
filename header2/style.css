@@ -1,0 +1,80 @@
+body{
+	background-color: #fff0da;
+}
+
+.header {
+	/*padding-top: 20px;*/
+	margin-bottom: 20px;
+	font-family: Geneva, Arial, Helvetica, sans-serif ;
+}
+/*header*/
+.headerContent {
+	box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	background-color: #ffe4c4;
+	background-repeat: no-repeat;
+	height: 73px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding-top: 10px;
+}
+/*logo*/
+.logo {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 24px;
+	text-shadow: 0 1px 0 white;
+	color: #694a19;
+	padding-left: 15px;
+}
+
+.logo a:hover {
+	color: #bda280;
+}
+
+.kakao {
+	color: #bda280;
+}
+
+.logo a:hover .kakao {
+	color: #694a19;
+}
+
+/*Навгація*/
+ul.nav {
+	margin: 0;
+	padding: 3px 0 0 0;
+	overflow: hidden;
+	float: right;
+}
+
+ul.nav li {
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+}
+
+ul.nav li a {
+	font-size: 17px;
+	/*font-weight: bold;*/
+	text-decoration: none;
+	padding: 0 25px;
+	/*display: block;*/
+	color: #694a19;
+	text-shadow: 0 1px 0 white;
+}
+
+ul.nav li a.active {
+	color: #694a19;
+}
+
+ul.nav li a:hover {
+	color: #9e642c;
+}
