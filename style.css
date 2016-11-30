@@ -1,26 +1,25 @@
-/*body{
+body{
 	background-color: #fff0da;
 }
 
 .header {
-	/*padding-top: 20px;
+	padding-top: 20px;
 	margin-bottom: 20px;
 	font-family: Geneva, Arial, Helvetica, sans-serif ;
 }
-/*header
+/*header*/
 .headerContent {
 	box-shadow: 0 3px 2px rgba(0,0,0,0.3);
 	-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0 3px 2px rgba(0,0,0,0.3);
-	background-color: #ffe4c4;
-	background-repeat: no-repeat;
-	height: 73px;
+    background: #ffe4c4 no-repeat;
+    height: 73px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	padding-top: 10px;
 }
-/*logo
+/*logo*/
 .logo {
 	display: inline-block;
 	float: left;
@@ -47,7 +46,7 @@
 	color: #694a19;
 }
 
-/*Навгація
+/*Навгація*/
 ul.nav {
 	margin: 0;
 	padding: 3px 0 0 0;
@@ -63,10 +62,10 @@ ul.nav li {
 
 ul.nav li a {
 	font-size: 17px;
-	/*font-weight: bold;
+	font-weight: bold;
 	text-decoration: none;
 	padding: 0 25px;
-	/*display: block;
+	display: block;
 	color: #694a19;
 	text-shadow: 0 1px 0 white;
 }
@@ -77,4 +76,64 @@ ul.nav li a.active {
 
 ul.nav li a:hover {
 	color: #9e642c;
-}*/
+}
+
+*{
+    margin:0px;
+}
+
+/*css for slider*/
+#slider {
+    height:600px;
+    width:90%;
+    margin: 50px auto;
+    position:relative;
+    border-radius:4px;
+    overflow:hidden;
+}
+#image {
+    border-radius: 2%;
+    height:600px;
+    width:100%;
+    position:absolute;
+
+}
+.left_hold {
+    height: 600px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.right_hold {
+    height: 600px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.left {
+    height:50px;
+    width:50px;
+    position:absolute;
+    top:50%;
+    left:20px;
+    opacity:0;
+    transition: all .2s ease-in-out 0s;
+}
+.right {
+    height:50px;
+    width:50px;
+    position:absolute;
+    top:50%;
+    right:20px;
+    opacity:0;
+    transition: all .5s ease-in-out 0s;
+}
+.left_hold:hover .left {
+    opacity:0.6;
+}
+.right_hold:hover .right {
+    opacity:0.6;
+}
+/*end of css for slider*/

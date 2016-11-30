@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-	<meta charset="utf-8">
-
-	<title>ver3</title>
-
+    <meta charset="UTF-8">
+    <title>Mr Coconut</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- ref for slider -->
+    <script src="slider.js"></script>
+</head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
 
+
+<body onload="photoA()">
 <!-- Header -->
-<!--
 
-		<div class="header">
-			<div class="headerContent">
-				<div class="logo"><a href="#"><img src="images/logo.png"></a></div>
-				
-				<ul class="nav">
-						<li><a href="#" class="active">Головна</a></li>
-						<li><a href="#">Про нас</a></li>
-						<li><a href="#">Замовлення</a></li>
-						<li><a href="#">Доставка</a></li>
-						<li><a href="#">Контакти</a></li>
-				</ul>
+<div class="header">
+    <div class="headerContent">
+        <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
 
-			</div>
-		</div>
--->
+        <ul class="nav">
+            <li><a href="#" class="active">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Замовлення</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+
+    </div>
+</div>
+
 <!-- Content -->
 
-<!-- Footer -->
+<div class="wrapper">
+    <div class="leftMenu">
 
+    </div>
+    <!--for change images you must insert image files into dir "img" with the same names.-->
+    <div class="content">
+        <div id="slider">
+            <img src="img/img1.jpg" id="image" >
+            <div class="left_hold"><img onClick="photo(-1)" class="left" src="img/arrow_left1.png"></div>
+            <div class="right_hold"><img onClick="photo(1)" class="right" src="img/arrow_right1.png"></div>
+        </div>
+    </div>
+    <div class="rightMenu">
+
+    </div>
+</div>
+<div class="footer">
+
+</div>
 </body>
 </html>
