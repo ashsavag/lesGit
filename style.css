@@ -85,14 +85,14 @@ ul.nav li a:hover {
 /*css for slider*/
 #slider {
     height:600px;
-    width:90%;
+    width:100%;
     margin: 50px auto;
     position:relative;
     border-radius:4px;
     overflow:hidden;
 }
 #image {
-    border-radius: 2%;
+    border-radius: 10px;
     height:600px;
     width:100%;
     position:absolute;
