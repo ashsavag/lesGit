@@ -80,16 +80,14 @@ ul.nav li a:hover {
     color: #9e642c;
 }
 
-
-
 /*css for slider*/
 #slider {
-    height:600px;
-    width:100%;
-    margin:  auto;
-    position:relative;
+    height: 550px;
+    width: 100%;
+    margin: auto;
+    position: relative;
     border-radius:4px;
-    overflow:hidden;
+    overflow: hidden;
 }
 #image {
     border-radius: 10px;
@@ -140,28 +138,29 @@ ul.nav li a:hover {
 /*css for category*/
 .wrap-ctgr {
     width: 1000px;
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-left: 328px;
+    margin-bottom: 100px;
     position: relative;
 }
 
 .category {
     display: flex;
-    width: 1000px;
-    height: 400px;
-    background-color: #EED8AE;
+    width: 990px;
+    padding: 40px 0 65px;
+    background-color: #EEEEE0;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 1px solid white;
-    border-radius: 2px;
+    border-radius: 17px;
 } 
 
 .title-category {
     width: 350px;
-    height: 50px;
+    height: 40px;
     background-color: black;
     position: absolute;
-    top: -25px;
-    left: 325px;
+    top: -20px;
+    left: 25px;
     font-family: arial;
     word-spacing: 15px;
     letter-spacing: 5px;
@@ -174,64 +173,63 @@ ul.nav li a:hover {
 
 .ctg-toy {
     width: 250px;
-    height: 300px;
-    position: relative;
     border: 1px solid white;
+    position: relative;
     align-self: center;
+    border-radius: 7px;
+    box-shadow: 1px 5px 1px #8B7E66;
 }
  
 .ctg-accessories {
     width: 250px;
-    height: 300px;
     border: 1px solid white;
-    position:relative;
+    position: relative;
     align-self: center;
+    border-radius: 7px;
+    box-shadow: 1px 5px 1px #8B7E66;
 } 
   
 .ctg-bijou {
     width: 250px;
-    height: 300px;
     border: 1px solid white;
-    position:relative;
-    align-self: center; 
+    position: relative;
+    align-self: center;
+    border-radius: 7px;
+    box-shadow: 1px 5px 1px #8B7E66;
 }
 
 .img-toy {
     background-image: url(../images/teddy.png);
-    border: 1px solid white;
-    width: 200px;
+    width: 250px;
     height: 256px;
+    margin: 0 auto;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
-    left: 24px;
-    top: 15px;
 }
 
 .name-img {
     width: 150px;
     height: 30px;
-    border: 1px solid white;
+    background: black;
     position: absolute;
-    bottom: 30px;
-    left: 50px;
+    bottom: -50px;
+    right: 0;
+    border: 1px solid white;
     text-align: center;
     padding: 3px 0;
-    box-sizing: border-box;
-    border-radius: 3px;
+    display: ;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 
 }  
 /*css for category*/
 /*css for Novinki*/
 .main {
     width: 1216px;
-    border: 1px solid #838B83;
     padding: 15px 15px 56px;
     position: relative;
     background-color: #EEEEE0;
@@ -244,9 +242,9 @@ a {
     display: inline-block;
     border-radius: 7px;
     position: relative;
-    background: #FFFFF0;
+    background: #EEEEE0;
     margin: 20px;
-   /* box-shadow: 1px 5px 1px #8B7E66;*/
+    box-shadow: 1px 5px 1px #8B7E66;
 }
 
 .hidden {
