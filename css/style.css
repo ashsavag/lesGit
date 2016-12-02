@@ -230,11 +230,11 @@ a {
 /*css for category*/
 /*css for Novinki*/
 .main {
-    width: 980px;
+    width: 1216px;
     border: 1px solid #838B83;
-    padding: 30px;
+    padding: 15px 15px 56px;
     position: relative;
-    background-color: #FFDEAD;
+    background-color: #EEEEE0;
     border-radius: 17px;
     margin: 0 auto;
 }
@@ -242,10 +242,9 @@ a {
 .novinki    {
     width: 200px;
     display: inline-block;
-   
     border-radius: 7px;
     position: relative;
-    background: #EED8AE;
+    background: #FFFFF0;
     margin: 20px;
    /* box-shadow: 1px 5px 1px #8B7E66;*/
 }
@@ -256,9 +255,8 @@ a {
     position: absolute;
     bottom: -76px;
     border-radius: 0px 0px  7px 7px;
-
     border-radius-bottom: 7px;
-    background-color: #8B8B83;
+    background-color: #CDCDC1;
    
 }
 
@@ -352,11 +350,11 @@ a {
 
 .top {
     width: 350px;
-    height: 50px;
+    height: 40px;
     background-color: black;
     position: absolute;
-    top: -25px;
-    left: 365px;
+    top: -20px;
+    left: 25px;
     font-family: arial;
     word-spacing: 15px;
     letter-spacing: 5px;
