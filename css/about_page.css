@@ -434,7 +434,7 @@ a {
     background-color: #EED6B8;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
     .img_about {
         height: 250px;
         margin-right: 0px;
