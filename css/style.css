@@ -24,8 +24,6 @@ body {
 .logo {
     display: inline-block;
     float: left;
-    font-weight: bold;
-    padding: 15px 0 0 20px;
 }
 
 .logo a {
@@ -33,6 +31,7 @@ body {
     font-size: 24px;
     text-shadow: 0 1px 0 white;
     color: #694a19;
+    padding-left: 15px;
 }   
   
 .logo a:hover {
@@ -58,7 +57,6 @@ ul.nav {
 
 ul.nav li {
     list-style: none;
-   
     display: inline-block;
 }
 
