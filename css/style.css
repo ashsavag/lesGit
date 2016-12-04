@@ -137,38 +137,41 @@ ul.nav li a:hover {
 /*end of css for slider*/
 /*css for category*/
 .wrap-ctgr {
-    width: 1000px;
-    margin-top: 100px;
-    margin-left: 328px;
-    margin-bottom: 100px;
+    width: 974px;
+    margin: 100px auto;
     position: relative;
 }
 
 .category {
     display: flex;
-    width: 990px;
+    width: 974px;
     padding: 40px 0 65px;
     background-color: #EEEEE0;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-radius: 17px;
+    border-top: 2px solid rgba(0,0,0,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    z-index: 1;
 } 
 
 .title-category {
     width: 350px;
     height: 40px;
-    background-color: black;
+    background-color: rgba(0,0,0,0.9);
     position: absolute;
     top: -20px;
     left: 25px;
-    font-family: arial;
+    font-family: pacificoregular;
+    font-size: 20px;
     word-spacing: 15px;
+    text-transform: uppercase;
     letter-spacing: 5px;
-    color: white;
+    color: rgba(255,255,255,0.5);
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
     box-sizing: border-box;
     border-radius: 4px;
+    box-shadow: 1px 3px 1px black;
 }
 
 .ctg-toy {
@@ -211,7 +214,7 @@ ul.nav li a:hover {
 .name-img {
     width: 150px;
     height: 30px;
-    background: black;
+    background-color: rgba(0,0,0,0.6);
     position: absolute;
     bottom: -50px;
     right: 0;
@@ -219,22 +222,55 @@ ul.nav li a:hover {
     text-align: center;
     padding: 3px 0;
     display: ;
+    border-radius: 10px;
+    box-shadow: 1px 3px 1px;
+     
+}
+
+.name-img:hover {
+    background-color: rgba(0,0,0,0.9);
+    transition: all 0.7s;
 }
 
 a {
+    display: block;
     text-decoration: none;
+    font-family: pacificoregular;
     color: white;
+    text-align: center;
+    padding-top: 2px;
 
 }  
 /*css for category*/
 /*css for Novinki*/
 .main {
-    width: 1216px;
-    padding: 15px 15px 56px;
+    width: 974px;
+    padding-top: 20px;
     position: relative;
     background-color: #EEEEE0;
-    border-radius: 17px;
+   
+    border-top: 2px solid rgba(0,0,0,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.3);
     margin: 0 auto;
+
+}
+
+.top {
+    width: 350px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    font-family: 'pacificoregular';
+    font-size: 20px;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 .novinki    {
@@ -339,28 +375,12 @@ a {
     width:70px;
     height: 30px;
     color: white;
-    font-family: arial;
-    background-color: black;
-    padding-top: 5px;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-
-.top {
-    width: 350px;
-    height: 40px;
-    background-color: black;
-    position: absolute;
-    top: -20px;
-    left: 25px;
-    font-family: arial;
-    word-spacing: 15px;
-    letter-spacing: 5px;
-    color: white;
+    font-family: pacificoregular;
     text-align: center;
-    padding-top: 15px;
+    background-color: rgba(0,0,0,0.9);
+    padding-top: 2px;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 5px 2px 2px 2px;
 }
 
 /* Section Footer */
