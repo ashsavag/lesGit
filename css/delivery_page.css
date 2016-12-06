@@ -1,0 +1,36 @@
+.container_delivery {
+    padding: 50px;
+    background-color: #EEDFCB;
+    overflow: hidden;
+}
+
+.container_delivery p {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container_delivery span {
+    font-size: 18px;
+}
+
+.container_delivery_header {
+    text-align: center;
+}
+
+.container_delivery_header p {
+    font-size: 22px;
+    font-weight: bold;
+    color: darkmagenta;
+    margin-top: 0;
+}
+
+.container_delivery_payment {
+    float: left;
+    width: 50%;
+}
+
+.container_delivery_dostavka {
+    float: right;
+    width: 50%;
+}
