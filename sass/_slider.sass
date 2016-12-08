@@ -1,0 +1,51 @@
+#slider
+  height: 500px
+  width: 100%
+  margin: 0 auto
+  position: relative
+  overflow: hidden
+
+#image
+  height: 500px
+  width: 100%
+  position: absolute
+
+.left_hold
+  height: 600px
+  width: 100px
+  position: absolute
+  top: 0
+  left: 0
+
+.left
+  height: 50px
+  width: 50px
+  position: absolute
+  top: 40%
+  left: 20px
+  opacity: 0
+  transition: all .2s ease-in-out 0s
+
+.right_hold
+  height: 600px
+  width: 100px
+  position: absolute
+  top: 0
+  right: 0
+
+.right
+  height: 50px
+  width: 50px
+  position: absolute
+  top: 40%
+  right: 20px
+  opacity: 0
+  transition: all .5s ease-in-out 0s
+
+.left_hold:hover .left
+  opacity: 0.6
+
+.right_hold:hover .right
+  opacity: 0.6
+.slider
+  border-bottom: 3px solid #93B8BF

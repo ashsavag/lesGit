@@ -1,0 +1,49 @@
+
+
+
+header
+  min-height: 100px
+  background-color: $bg-color-header
+  display: flex
+  align-items: center
+  justify-content: space-around
+  padding: 15px 20px 5px 20px
+  border-bottom: 3px solid $border-color
+
+.content
+  flex-direction: row
+  display: flex
+  p,img
+    align-self: center
+    color: $main-font-c
+
+
+
+  &__menu
+    flex-direction: row
+
+    a
+      color: $main-font-c
+      padding: 0.5rem
+      text-transform: uppercase
+
+      &:hover
+        background-color: $bg-color-hover
+        color: $main-font-hover
+        transition: all 0.6s ease
+
+    &-item
+      font-size: 1rem
+      padding: 5px
+
+
+
+.content-logo
+    img
+      width: 200px
+
+
+.phone_logo
+  margin-bottom: 5px
+  width: 35px
+  height: 25px

@@ -1,242 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Mr Coconut</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- ref for slider -->
-    <script src="js/slider.js"></script>
+    <title>Головна сторінка</title>
+    <link href="css/libs.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../Desktop/Hover-master/css/hover.css">
 </head>
-
-
 <body onload="photoA()">
-<!-- Header -->
-
-<div class="header">
-    <div class="headerContent">
-        <div class="logo"><a href="#"><img src="images/Logo.png"></a></div>
-
-        <ul class="nav">
-            <li><a href="#" class="active">Головна</a></li>
-            <li><a href="pages/catalogue_all.html">Каталог</a></li>
-            <li><a href="pages/delivery_page.html">Доставка</a></li>
-            <li><a href="pages/contacts_page.html">Контакти</a></li>
-            <li><a href="pages/about_page.html">Про нас</a></li>
-        </ul>
-
-    </div>
-</div>
-
-<!-- Content -->
-
-<div class="wrapper">
-    <div class="leftMenu">
-
-    </div>
-    <!--for change images you must insert image files into dir "img" with the same names.-->
+<header>
     <div class="content">
-        <div id="slider">
-            <img src="images/img1.jpg" id="image">
-            <div class="left_hold"><img onClick="photo(-1)" class="left" src="images/arrow_left1.png"></div>
-            <div class="right_hold"><img onClick="photo(1)" class="right" src="images/arrow_right1.png"></div>
+        <a class="content-logo" href="index.html">
+            <img src="img/logo.png" alt="logo">
+        </a>
+    </div>
+    <nav class="content">
+        <div class="content__menu">
+            <a class="content__menu-item" href="">Головна</a>
+            <a class="content__menu-item" href="pages/catalogue_all.html">Каталог</a>
+            <a class="content__menu-item" href="pages/delivery.html">Доставка|Оплата</a>
+            <a class="content__menu-item" href="pages/contacts.html">Контакти</a>
+            <a class="content__menu-item" href="pages/about.html">Про нас</a>
         </div>
+    </nav>
+    <div class="content">
+        <img class= "phone_logo" src="img/phone.png" alt="phone">
+        <p> +38 (068) 125-58-15</p>
+    </div>
+</header>
+<div class="slider">
+    <div id="slider">
+        <img src="img/img1.jpg" id="image">
+        <div class="left_hold"><img onClick="photo(-1)" class="left" src="img/arrow_left1.png"></div>
+        <div class="right_hold"><img onClick="photo(1)" class="right" src="img/arrow_right1.png"></div>
     </div>
 </div>
-<div class="main">
-    <div class="top">Top New</div>
-    <div class="novinki">
-        <div class="new">
-            New
-        </div>
-        <div class="img">
-        </div>
-        <div class="title">
-            Плюшевая игрушка Teddy
-        </div>
-        <div class="price">
-            500 грн.
-        </div>
-        <div class="novinki1">
-            <div class="new">
-            New
+<section class="main">
+    <article class="main__content">
+        <h1>Каталог</h1>
+        <div class="container">
+            <div class="container_items">
+                <a href="pages/catalogue_toys.html"><img class="image_ico" src="img/toys.jpg" alt="pic1"></a>
+                <div class="wrapper">
+                    <h2 class="item_name">Іграшки</h2>
+                </div>
             </div>
-            <div class="img">
+            <div class="container_items">
+                <a href="pages/catalogue_bijou.html"><img class="image_ico" src="img/bijou.jpg" alt="pic1"></a>
+                <div class="wrapper">
+                    <h2 class="item_name">Прикраси</h2>
+                </div>
             </div>
-            <div class="title"> Плюшевая игрушка Teddy</div>
-            <div class="price1">
-                500 грн.
-            </div>
-            <div class="extra"> Дополнительно
-            </div>
-            <div class="material"> Материал: Искусственный мех
-            </div>
-            <div class="size">
-                Размер: 110 см
+            <div class="container_items">
+                <a href="pages/catalogue_accessories.html"><img class="image_ico" src="img/accessories.jpg" alt="pic1"></a>
+                <div class="wrapper">
+                    <h2 class="item_name">Аксесуари</h2>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="novinki">
-        <div class="new">
-            New
-        </div>
-        <div class="img2">
-        </div>
-        <div class="title">
-            Плюшевая игрушка Teddy
-        </div>
-        <div class="new">New</div>
-        <div class="price">
-            500 грн.
-        </div>
-        <div class="novinki1">
-            <div class="img2">
+    </article>
+    <article class="main__content">
+        <h1>Hовинки</h1>
+        <div class="container">
+            <div class="container_items">
+                <a href="#"><img class="image_ico" src="img/item1.jpg" alt="pic1"></a>
+                <div class="wrapper">
+                    <p class="item_name">Деревянный пазл «Дерево»</p>
+                    <p class="price">Ціна: 50 грн.</p>
+                    <p class="amount"><a href="pages/item_1.html">Детально</a></p>
+                </div>
             </div>
-            <div class="title"> Плюшевая игрушка Teddy</div>
-            <div class="new">
-                New</div>
-            <div class="price1">
-                500 грн.
+            <div class="container_items">
+                <a href="#"><img class="image_ico" src="img/item22.jpg" alt="pic1"></a>
+                <div class="wrapper">
+                    <p class="item_name">Кулон "ОВЕН"</p>
+                    <p class="price">Ціна: 25 грн.</p>
+                    <p class="amount"><a href="pages/item_2.html">Детально</a></p>
+                </div>
             </div>
-            <div class="extra"> Дополнительно
-            </div>
-            <div class="material"> Материал: Искусственный мех
-            </div>
-            <div class="size">
-                Размер: 110 см
+            <div class="container_items">
+                <a href="#"><img class="image_ico" src="img/item25.jpg" alt="pic1"></a>
+                <div class="wrapper">
+                    <p class="item_name">Ключниця "FISH BONE"</p>
+                    <p class="price">Ціна: 100 грн.</p>
+                    <p class="amount"><a href="pages/item_3.html">Детально</a></p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="novinki">
-        <div class="new">
-            New
+    </article>
+</section>
+<footer>
+        <div class="content">
+            <div class="content__social">
+                <a class="content__social-item" href="https://www.facebook.com/profile.php?id=100012620357471&fref=ts" target="_blank">
+                    <img src="img/facebook.svg" alt="facebook" title="facebook">
+                </a>
+                <a class="content__social-item" href="https://www.vk.com" title="vk" target="_blank">
+                    <img src="img/vk.svg" alt="vk" title="vk">
+                </a>
+                <a class="content__social-item" href="https://www.twitter.com" title="twitter" target="_blank">
+                    <img src="img/twitter.svg" alt="twitter" title="twitter">
+                </a>
+                <a class="content__social-item" href="https://www.instagram.com" title="instagram" target="_blank">
+                    <img src="img/instagram.svg" alt="instagram" title="instagram">
+                </a>
+            </div>
         </div>
-        <div class="img3">
-        </div>
-        <div class="title">
-            Плюшевая игрушка Teddy
+        <nav class="content">
+            <div class="content__menu">
+                <a class="content__menu-bottom" href="pages/warranty.html">Гарантії</a>
+                <a class="content__menu-bottom" href="pages/delivery.html">Доставка|Оплата</a>
+                <a class="content__menu-bottom" href="pages/contacts.html">Контакти</a>
+                <a class="content__menu-bottom" href="pages/partners.html">Для партнерів</a>
+            </div>
+        </nav>
+        <div class="content">
+            <img class= "phone_logo" src="img/phone.png" alt="phone">
+            <p> +38 (068) 125-58-15</p>
         </div>
 
-        <div class="price">
-            500 грн.
-        </div>
-        <div class="novinki1">
-            <div class="new">
-                New
-            </div>
-            <div class="img3">
-            </div>
-            <div class="title"> Плюшевая игрушка Teddy</div>
-            <div class="price1">
-                500 грн.
-            </div>
-            <div class="extra"> Дополнительно
-            </div>
-            <div class="material"> Материал: Искусственный мех
-            </div>
-            <div class="size">
-                Размер: 110 см
-            </div>
-        </div>
-    </div>
-    <div class="novinki">
-         <div class="new">
-            New
-         </div>
-        <div class="img4">
-        </div>
-        <div class="title">
-            Плюшевая игрушка Teddy
-        </div>
-       <div class="price">
-            500 грн.
-        </div>
-        <div class="novinki1">
-             <div class="new">
-                New
-             </div>
-            <div class="img4">
-            </div>
-            <div class="title"> Плюшевая игрушка Teddy</div>
-            <div class="price1">
-                500 грн.
-            </div>
-            <div class="extra"> Дополнительно
-            </div>
-            <div class="material"> Материал: Искусственный мех
-            </div>
-            <div class="size">
-                Размер: 110 см
-            </div>
-        </div>
-    </div>
-</div>
-<!--CATEGORY-->
-<div class="wrap-ctgr">
-        <div class="title-category">
-            Category
-        </div>
-        <div class="category">
-           <div class="ctg-toy">
-            <div class="img-toy">
-            </div>
-            <div class="name-img">
-                <a href="pages/catalogue_toys.html">Toy</a>
-            </div>
-        </div>
-        <div class="ctg-accessories">
-            <div class="img-toy">
-            </div>
-            <div class="name-img">
-                <a href="pages/catalogue_accessories.html">Accessories</a>
-            </div>
-        </div>
-        <div class="ctg-bijou">
-            <div class="img-toy">
-            </div>
-            <div class="name-img">
-                <a href="pages/catalogue_bijou.html">Bijou</a>
-            </div>
-        </div>
-    </div>
-    </div>
 
+</footer>
 
-<!--  Section Footer START-->
-<div class="footer">
-    <div class="inner">
-        <div class="footer-box1">
-            <p>E-mail: <br>
-                svetpash@ukr.net</p>
-            <p>Tel.: <br>
-                (068) 125-58-15</p>
-        </div>
-        <div class="footer-box2">
-            <p>FOLLOW ME</p>
-            <a class="facebook" href="https://www.facebook.com/profile.php?id=100012620357471" target="_blank"><img src="images/icon_fb.png" alt=""></a>
-            <a class="instagram" href="https://www.instagram.com/suvenirna_maisternia_kokos/" target="_blank"><img src="images/icon-instagram.png" alt=""></a>
-        </div>
-    </div>
-</div>
-<!--  Section Footer END-->
+<script src="js/slider.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
 </body>
 </html>
-
-	
-
-
-
-
-	
-
-		
-		
-		
-	
-    
-		
-
-
-
-
-
-	

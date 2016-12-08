@@ -1,0 +1,129 @@
+.main
+  flex: 1 0 auto
+
+  &__content
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+
+
+.container
+  display: flex
+  flex-flow: row
+  flex-wrap: wrap
+  justify-content: space-around
+
+
+  &_items
+    color: #575448
+    margin: 10px
+    background-color: $bg-color-items
+    padding: 10px
+    font-size: 0.8rem
+    border-bottom: 3px solid $border-color
+  &_text
+    width: 40%
+    margin: 10px
+    padding: 10px
+    font-size: 1rem
+    border-bottom: 3px solid $border-color
+    flex-grow: 2
+    color: #575448
+    p
+      margin: 0.5rem
+      text-align: justify
+      text-indent: 2rem
+      color: #575448
+      &.amount
+        float: none
+        text-align: center
+        text-indent: 0
+    table
+
+      tr
+        padding: 0.5rem
+        th
+          text-align: left
+          padding: 0.5rem
+        td
+          text-align: justify
+          padding: 0.5rem
+.wrapper
+  clear: both
+  text-align: center
+
+.item_name
+  width: 260px
+  color: $main-font-c
+  margin: 1rem
+  white-space: nowrap
+  overflow: hidden
+
+
+.price
+  display: inline-block
+  float: left
+  font-weight: bold
+  margin: 5px 15px
+  color: $main-font-c
+  padding: 5px
+
+
+.amount
+  width: 110px
+  float: right
+  display: inline-block
+  font-weight: bold
+  margin: 5px 15px
+  background-color: $bg-color-hover
+  color: $main-font-c
+  padding: 5px
+
+
+.image_ico
+  width: 300px
+  height: 350px
+
+
+.catalogue_menu
+  height: 50px
+  background-color: $bg-color-footer
+  text-align: center
+  border-bottom: 3px solid $border-color
+
+
+
+.catalogue_menu_item
+  line-height: 1.6rem
+  list-style-type: none
+  padding: 10px 10px 5px 10px
+
+
+.menu_item
+  width: 150px
+  display: inline
+  font-size: 1rem
+
+  a.menu
+    padding: 0.8rem
+
+
+  a.menu:link
+    color: $main-font-footer
+
+
+  a.menu:visited
+    color: $main-font-footer
+
+  a.menu:active
+    color: $main-font-footer
+
+  a.menu:hover
+    background-color: $bg-color-hover
+    color: $main-font-hover
+
+p
+  .content__social-item
+    img
+      width: 32px
